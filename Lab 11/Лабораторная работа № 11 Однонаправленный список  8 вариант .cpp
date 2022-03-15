@@ -1,14 +1,14 @@
 ﻿#include <iostream>
 using namespace std;
 struct Node {
-	char l;
+	string l;
 	Node* ptr=nullptr;
 };
 struct List {
 	Node* head = nullptr;
 	Node* tail = nullptr;
 };
-void push_back(List& list, const char& l)
+void push_back(List& list, string& l)
 {
 	Node* n_n = new Node;
 	n_n->l = l;
@@ -28,7 +28,7 @@ int main()
 	int n = 5;
 	for (int i = 0; i !=n; i++)
 	{
-		char s;
+		string s;
 		cin >> s;
 		push_back(list,s);
 	}
