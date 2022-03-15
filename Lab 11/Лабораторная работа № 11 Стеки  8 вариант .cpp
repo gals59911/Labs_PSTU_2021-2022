@@ -4,10 +4,10 @@ using namespace std;
 int main()
 {
 	setlocale(LC_ALL, "Rus");
-	stack <char> s1;
-	stack <char> s2;
+	stack <string> s1;
+	stack <string> s2;
 	int n,c=0;
-	char sim;
+	string sim;
 	cout << "Введите количество элементов: ";
 	cin >> n;
 	for (int i = 1;i<=n;i++)
