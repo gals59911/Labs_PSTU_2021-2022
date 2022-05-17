@@ -638,7 +638,7 @@ private: System::Void button19_Click(System::Object^ sender, System::EventArgs^ 
 				{
 					return (ch1 / ch2).ToString();
 				}
-				else { return "You cannot"; }
+				else { return "Error"; }
 			}
 
 
